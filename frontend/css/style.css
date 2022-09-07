@@ -378,7 +378,7 @@ section {
 /* FOOTER */
 .footerWrap {
   width:100%;
-  position:fixed;
+  position:center;
   bottom: 0px;
 }
 .footer {
