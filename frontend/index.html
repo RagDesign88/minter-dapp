@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Crack Rabbit Collective</title>
+    <title>CodeCats</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,6 +26,7 @@
     />
     <link rel="manifest" href="images/x-icon/site.webmanifest" />
     <link rel="stylesheet" href="css/three-dots.min.css" />
+    <link rel="stylesheet" href="css/splide.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -67,16 +68,11 @@
 
     <section class="container not-connected">
       <div>
-        <h1 id="welcomeH1">THIS IS CRACK RABBIT!!!</h1>
+        <h2 id="welcomeH2">Connect to MetaMask to Get Started</h2>
+        <h1 id="welcomeH1">Welcome to the CodeCats NFT Project!</h1>
         <p id="welcomeP">
-          Crack Rabbit Collective is a project dedicated to the wacky, twisted, and strange cartoons we grew up with.
+          The CodeCats NFT Project is a decentralized, open-source project that aims to demonstrate how to develope and launch your own NFT Collection. Follow step by step on the <a href="https://youtube.com/codestackr"  target="_blank" rel="noopener noreferrer">codeSTACKr</a> YouTube channel.
         </p>
-      </div>
-    </section>
-
-    <section class="container not-connected">
-      <div>
-        <img src="img/cosmic crack rock.png">
       </div>
     </section>
 
@@ -108,7 +104,7 @@
         </div>
         <h1 id="mainHeading">NFT Drop Coming Soon!!</h1>
         <p id="mainText">
-          A new batch of crack rabbits are coming!
+          A new batch of cute cats will be available very soon!
         </p>
         <a
           id="actionButton"
@@ -116,7 +112,7 @@
           target="_blank"
           rel="noopener noreferrer"
           class="hero-btn btn"
-          ><span>Join the Crackmunity</span>
+          ><span>Join the Catmmunity</span>
         </a>
         <div id="mintContainer" class="mint-container hidden">
           <div class="info-container">
@@ -156,7 +152,7 @@
         </div>
       </div>
       <div class="minted-container card show-card hidden">
-        <h1>🤘</h1>
+        <h1>🎉</h1>
         <h2>Minted!</h2>
         <p>Here's your trasaction link:</p>
         <a id="mintedTxnBtn" href="" target="_blank" rel="noopener noreferrer">
@@ -174,10 +170,6 @@
       </div>
     </section>
 
-  
-
-  
-
     <section class="footer">
       <div class="footerWrap">
         <div class="footer">
@@ -187,8 +179,45 @@
         </div>
     </div>
 
+    <div id="spinner" class="dot-spin"></div>
+
+    <div class="splide">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <img src="images/slider/0.png" />
+          </li>
+          <li class="splide__slide">
+            <img src="images/slider/1.png" />
+          </li>
+          <li class="splide__slide">
+            <img src="images/slider/2.png" />
+          </li>
+          <li class="splide__slide">
+            <img src="images/slider/3.png" />
+          </li>
+          <li class="splide__slide">
+            <img src="images/slider/4.png" />
+          </li>
+          <li class="splide__slide">
+            <img src="images/slider/5.png" />
+          </li>
+          <li class="splide__slide">
+            <img src="images/slider/6.png" />
+          </li>
+          <li class="splide__slide">
+            <img src="images/slider/7.png" />
+          </li>
+          <li class="splide__slide">
+            <img src="images/slider/8.png" />
+          </li>
+        </ul>
+      </div>
+    </div>
+
     <script src="js/metamask-onboarding.bundle.js"></script>
     <script src="js/web3.min.js"></script>
+    <script src="js/splide.min.js"></script>
     <script src="js/constants.js"></script>
     <script src="js/abi.js"></script>
     <script src="js/countdown.js"></script>
