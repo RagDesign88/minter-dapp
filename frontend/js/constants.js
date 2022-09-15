@@ -1,10 +1,10 @@
-const contractAddress = "0x8D5Ab6D942A7c8Ae36D79770e18B62FD25E75422"; // Replace with your own contract address
+const contractAddress = "YOUR CONTRACT ADDRESS"; // Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby, polygon, or ethereum
 
-const welcome_h1 = "Welcome to the world of Crack Rabbit!";
+const welcome_h1 = "Welcome to the CodeCats NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'Crack Rabbit Collective is a project dedicated to the wacky, twisted, and strange cartoons we grew up with. We would have more to say, but 10,000 randomly generated cartoon crack smoking rabbits speaks for itself.';
-const h1_presale_coming_soon = "Crack Drop Coming Soon!!";
+const welcome_p = 'The CodeCats NFT Project is a decentralized, open-source project that aims to demonstrate how to develope and launch your own NFT Collection. Follow step by step on the <a href="https://youtube.com/codestackr"  target="_blank" rel="noopener noreferrer">codeSTACKr</a> YouTube channel.';
+const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
 const h2_presale_coming_soon = "Pre-Sale Minting Countdown";
