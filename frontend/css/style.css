@@ -8,11 +8,11 @@
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Arvo", serif;
   --font-code: "Roboto", monospace;
-  --bg-color: #00163f;
-  --bg-color-transparent: #00163f80;
+  --bg-color: #000000;
+  --bg-color-transparent: #000000;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --accent-color: #9a0f18;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -74,12 +74,14 @@ header .container {
 
 .show-not-connected {
   opacity: 1;
+  text-align: center;
   transform: translateY(0);
 }
 
 .not-connected h1 {
   text-shadow: 2px 2px 0 var(--accent-color);
   font-style: italic;
+  text-align: center;
   margin: 2rem 0;
   font-size: 3.5rem;
 }
@@ -87,6 +89,7 @@ header .container {
 .not-connected p {
   font-size: 1.1rem;
   font-family: var(--font-secondary);
+  text-align: center;
   line-height: 1.8;
 }
 
