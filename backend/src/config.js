@@ -7,7 +7,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Crack Rabbit Collective";
+const namePrefix = "CrackRabbitCollective";
 const description = "Crack Rabbit Collective is a collection of 10,000 randomly generated high-resolution (6300 x 6300 pixels) Crack Rabbit NFTs created with humor in mind and injected with references to various pop-culture trends. Like many other NFTs, the Crack Rabbit collection contains NFTs with rare attributes however, what separates Crack Rabbit is its different spin on rarity. With a total of 13 categories of attribute types, 6 of those categories (Back accessory, Hat, left ear, right ear, front wrist, background wrist) have the potential of filling out a matching set that create a theme. Thus, since all 6 categories have a variety of different attributes, the Crack Rabbits with matching sets of attributes are like hands in poker.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
@@ -54,11 +54,11 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'Crack Rabbit Collective';
+const CONTRACT_NAME = 'CrackRabbitCollective';
 const CONTRACT_SYMBOL = 'CRC';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0xB239523D86D6798ACafA04157D780C263eBDe9A9';
-const TREASURY_ADDRESS = '0xB239523D86D6798ACafA04157D780C263eBDe9A9';
+const OWNER_ADDRESS = '0x74bBb01c648d2D6b02653bcfC5fb3a6955e4DAcE';
+const TREASURY_ADDRESS = '0x74bBb01c648d2D6b02653bcfC5fb3a6955e4DAcE';
 const MAX_SUPPLY = 11000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.0001; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 15; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
@@ -69,7 +69,7 @@ const PUBLIC_MINT_START_DATE = "2022-10-01T11:30:48+00:00"; // This is required.
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-09-21T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0xB239523D86D6798ACafA04157D780C263eBDe9A9"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0x74bBb01c648d2D6b02653bcfC5fb3a6955e4DAcE"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
