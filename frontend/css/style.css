@@ -143,13 +143,11 @@ header .container {
 /* COMIC */
 
 .comic {
-  {
     margin-left: auto;
     margin-right: auto;
     text-align: center
     width: 80%;
     height: 100%;
-}
 }
 
 /* CARD */
