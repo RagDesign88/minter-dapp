@@ -26,7 +26,7 @@
 body {
   background-color: var(--bg-color);
   display: flex;
-  flex-flow: center;
+  flex-flow: column;
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
@@ -34,12 +34,12 @@ body {
 
 .container {
   display: flex;
-  flex-direction: center;
+  flex-direction: column;
   max-width: 960px;
-  margin: auto auto;
+  margin: 0 auto;
   padding: 1rem 2rem;
   justify-content: center;
-  overflow: y;
+  overflow: hidden;
 }
 
 /* HEADER */
@@ -66,7 +66,7 @@ header .container {
   align-items: center;
   height: 100%;
   text-align: center;
-  margin: 0 auto 0 auto;
+  margin: 0 auto 0 35vw;
   opacity: 0;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
@@ -140,9 +140,9 @@ header .container {
   padding: 1.5rem 3rem;
 }
 
-/* BODY */
+/* COMIC */
 
-.body {
+.comic {
     padding: 0;
     align-items: center;
     margin-left: auto;
