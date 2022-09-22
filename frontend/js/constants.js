@@ -2,7 +2,8 @@ const contractAddress = "0xe68738Db4e7Bb31d7C3633D6Df40FB9223a1Ee16"; // Replace
 const chain = 'rinkeby'; // rinkeby, polygon, or ethereum
 
 const welcome_h1 = "This Is Crack Rabbit Collective";
-const welcome_h2 = "Connect your wallet 4 crack";
+const welcome_h2 = "There's 10,000 Crack Rabbits ready to be discovered";
+const welcome_p = "Connect your wallet 4 crack";
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
