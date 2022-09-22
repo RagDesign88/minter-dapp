@@ -68,7 +68,7 @@ header .container {
   text-align: center;
   margin: 0 auto 0 auto;
   opacity: 0;
-  transform: translateY(10vh);
+  transform: translateY(40vh);
   transition: all 0.5s ease-in-out;
 }
 
