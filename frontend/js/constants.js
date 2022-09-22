@@ -3,7 +3,6 @@ const chain = 'rinkeby'; // rinkeby, polygon, or ethereum
 
 const welcome_h1 = "This Is Crack Rabbit Collective";
 const welcome_h2 = "Connect your wallet 4 crack";
-const welcome_p = '';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
