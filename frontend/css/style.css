@@ -64,7 +64,7 @@ header .container {
 /* NOT CONNECTED */
 .not-connected {
   align-items: center;
-  height: 800px;
+  height: 100%;
   text-align: center;
   margin: 0 auto 0 auto;
   opacity: 0;
@@ -75,7 +75,7 @@ header .container {
 .show-not-connected {
   opacity: 1;
   text-align: center;
-  transform: translateY(0);
+  transform: translateY(100);
 }
 
 .not-connected h1 {
