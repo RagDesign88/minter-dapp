@@ -144,7 +144,7 @@ header .container {
 /* COMIC */
 
 .comic {
-    padding-top: 1000px;
+    padding: 0;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
@@ -250,6 +250,7 @@ section {
 
 .mint-container {
   position: absolute;
+  padding-bottom: 600px;
   width: 100%;
   height: 100%;
   display: flex;
