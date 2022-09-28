@@ -159,8 +159,6 @@ header .container {
   width: auto;
   height: auto;
   position: absolute; 
-  top: calc(50% - 25px); // half of width
-  left: calc(50% - 50px); // half of height
   background-color: var(--bg-color);
   border-radius: 5px;
   border: 3px solid var(--accent-color);
