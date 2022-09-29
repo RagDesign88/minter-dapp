@@ -8,11 +8,11 @@
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Arvo", serif;
   --font-code: "Roboto", monospace;
-  --bg-color: #000000;
-  --bg-color-transparent: #000000;
+  --bg-color: #00163f;
+  --bg-color-transparent: #00163f80;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #9a0f18;
+  --accent-color: #be7efe;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -35,7 +35,6 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  height: 100%;
   max-width: 960px;
   margin: 0 auto;
   padding: 1rem 2rem;
@@ -67,7 +66,7 @@ header .container {
   align-items: center;
   height: 100%;
   text-align: center;
-  margin: 0 auto 0 auto;
+  margin: 0 auto 0 35vw;
   opacity: 0;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
@@ -75,14 +74,12 @@ header .container {
 
 .show-not-connected {
   opacity: 1;
-  text-align: center;
   transform: translateY(0);
 }
 
 .not-connected h1 {
   text-shadow: 2px 2px 0 var(--accent-color);
   font-style: italic;
-  text-align: center;
   margin: 2rem 0;
   font-size: 3.5rem;
 }
@@ -90,13 +87,11 @@ header .container {
 .not-connected p {
   font-size: 1.1rem;
   font-family: var(--font-secondary);
-  text-align: center;
   line-height: 1.8;
 }
 
 .not-connected a {
   text-decoration: none;
-  text-align: center;
   color: var(--accent-color);
   font-size: 1.5rem;
   font-weight: bold;
@@ -141,25 +136,10 @@ header .container {
   padding: 1.5rem 3rem;
 }
 
-/* COMIC */
-
-.comic {
-    padding: 0;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-}
-
 /* CARD */
 
 .card {
   position: relative;
-  height: auto;
-  /* top: 300px;
-  left: 300px; */
   background-color: var(--bg-color);
   border-radius: 5px;
   border: 3px solid var(--accent-color);
@@ -251,10 +231,7 @@ section {
 /* MINT CONTAINER */
 
 .mint-container {
-  position: absolute;
-  padding-bottom: 600px;
   width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -262,10 +239,8 @@ section {
 
 .info-container {
   display: flex;
-  position: absolute;
   justify-content: space-between;
   width: 100%;
-  height: 100%;
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -413,25 +388,6 @@ section {
     font-size: 13px;
   }
 }
-
-/* FOOTER */
-.footerWrap {
-  width:100%;
-  position:center;
-  bottom: 0px;
-}
-.footer {
-  width: 1280px;
-  margin:auto;
-}
-.footerContent {
-  float:left;
-  text-align: center;
-  width:100%;
-  background-color:rgb(36, 34, 34);
-  padding:20px 0;
-}
-.footer p {float:left; width:100%; text-align:center; }
 
 /* UTILITIES */
 
