@@ -7,7 +7,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "CrackRabbitCollective";
+const namePrefix = "Crack-Rabbits";
 const description = "Crack Rabbit Collective is a collection of 10,000 randomly generated high-resolution (6300 x 6300 pixels) Crack Rabbit NFTs created with humor in mind and injected with references to various pop-culture trends. Like many other NFTs, the Crack Rabbit collection contains NFTs with rare attributes however, what separates Crack Rabbit is its different spin on rarity. With a total of 13 categories of attribute types, 6 of those categories (Back accessory, Hat, left ear, right ear, front wrist, background wrist) have the potential of filling out a matching set that create a theme. Thus, since all 6 categories have a variety of different attributes, the Crack Rabbits with matching sets of attributes are like hands in poker.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
@@ -55,7 +55,7 @@ const CHAIN = 'rinkeby'; // only rinkeby, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'Crack.Rabbit.Collective';
-const CONTRACT_SYMBOL = 'CRC';
+const CONTRACT_SYMBOL = 'CRS';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x74bBb01c648d2D6b02653bcfC5fb3a6955e4DAcE';
 const TREASURY_ADDRESS = '0x74bBb01c648d2D6b02653bcfC5fb3a6955e4DAcE';
@@ -75,7 +75,7 @@ const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the
 const PRESALE_WHITELISTED_ADDRESSES = ["0x74bBb01c648d2D6b02653bcfC5fb3a6955e4DAcE"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
+let CONTRACT_ADDRESS = "0xe68738Db4e7Bb31d7C3633D6Df40FB9223a1Ee16"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
