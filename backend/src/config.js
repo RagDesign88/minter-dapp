@@ -43,7 +43,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://crackrabbitcollective.com", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://www.crackrabbitcollective.com", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -54,7 +54,7 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'CrackRabbitCollective';
+const CONTRACT_NAME = 'CRACKRABBITCOLLECTIVE';
 const CONTRACT_SYMBOL = 'CRA';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x62B3E3febeb5a5504A9EE8DeA8c6919acF37ba10';
@@ -64,7 +64,7 @@ const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Ethereum = ET
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-10-05T01:00:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-10-01T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
@@ -80,7 +80,7 @@ let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually inclu
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "What will come of this crack rabbit?"; // Replace with what you want the generic descriptions to say.
+const GENERIC_DESCRIPTION = "What will come of this crack rabbit"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeiatig3hv3hkmg5swjy5ltyj5aaopzplozohd2nzjvhrm7ekg2qtqa"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script

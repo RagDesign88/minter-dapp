@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Crack Rabbit Collective</title>
+    <title>CodeCats</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -24,8 +24,9 @@
       sizes="16x16"
       href="images/x-icon/favicon-16x16.png"
     />
-    <link rel="manifest" href="images/header/Crack rabbit logo.png" />
+    <link rel="manifest" href="images/x-icon/site.webmanifest" />
     <link rel="stylesheet" href="css/three-dots.min.css" />
+    <link rel="stylesheet" href="css/splide.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -33,7 +34,7 @@
       <div class="container">
         <div class="logo">
           <a href="/">
-            <img src="images/header/Crack rabbit logo.png" alt="logo" />
+            <img src="images/x-icon/favicon-32x32.png" alt="logo" />
           </a>
         </div>
         <div class="menu">
@@ -59,7 +60,7 @@
             <img src="images/header/opensea.webp" alt="Opensea" />
           </a>
           <button class="wallet-btn btn" id="connectWallet">
-            <span>Connect Metamask!</span>
+            <span>Connect Wallet</span>
           </button>
         </div>
       </div>
@@ -67,10 +68,10 @@
 
     <section class="container not-connected">
       <div>
-        <h2 id="welcomeH2">Presenting the best NFT collection</h2>
-        <h1 id="welcomeH1">Crack Rabbit Collective</h1>
+        <h2 id="welcomeH2">Connect to MetaMask to Get Started</h2>
+        <h1 id="welcomeH1">Welcome to the CodeCats NFT Project!</h1>
         <p id="welcomeP">
-          Connect your wallet 4 crack & scroll down
+          The CodeCats NFT Project is a decentralized, open-source project that aims to demonstrate how to develope and launch your own NFT Collection. Follow step by step on the <a href="https://youtube.com/codestackr"  target="_blank" rel="noopener noreferrer">codeSTACKr</a> YouTube channel.
         </p>
       </div>
     </section>
@@ -103,7 +104,7 @@
         </div>
         <h1 id="mainHeading">NFT Drop Coming Soon!!</h1>
         <p id="mainText">
-          More Crack Rabbits Coming Soon!
+          A new batch of cute cats will be available very soon!
         </p>
         <a
           id="actionButton"
@@ -111,7 +112,7 @@
           target="_blank"
           rel="noopener noreferrer"
           class="hero-btn btn"
-          ><span>Join the Crackmmunity</span>
+          ><span>Join the Catmmunity</span>
         </a>
         <div id="mintContainer" class="mint-container hidden">
           <div class="info-container">
@@ -151,7 +152,7 @@
         </div>
       </div>
       <div class="minted-container card show-card hidden">
-        <h1>🤘</h1>
+        <h1>🎉</h1>
         <h2>Minted!</h2>
         <p>Here's your trasaction link:</p>
         <a id="mintedTxnBtn" href="" target="_blank" rel="noopener noreferrer">
@@ -160,7 +161,7 @@
         <p>View it in the collection:</p>
         <a
           id="mintedLinkBtn"
-          href="https://testnets.opensea.io/collection/crack-rabbit-collective-test"
+          href="https://testnets.opensea.io/collection/teststackr-collection"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -171,47 +172,46 @@
 
     <div id="spinner" class="dot-spin"></div>
 
-    <section class="comic">
-      <div style="text-align: center">
-        <img src="images/img/cosmic crack rock.png" alt="intro">
+    <div class="splide">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <img src="images/slider/0.png" />
+          </li>
+          <li class="splide__slide">
+            <img src="images/slider/1.png" />
+          </li>
+          <li class="splide__slide">
+            <img src="images/slider/2.png" />
+          </li>
+          <li class="splide__slide">
+            <img src="images/slider/3.png" />
+          </li>
+          <li class="splide__slide">
+            <img src="images/slider/4.png" />
+          </li>
+          <li class="splide__slide">
+            <img src="images/slider/5.png" />
+          </li>
+          <li class="splide__slide">
+            <img src="images/slider/6.png" />
+          </li>
+          <li class="splide__slide">
+            <img src="images/slider/7.png" />
+          </li>
+          <li class="splide__slide">
+            <img src="images/slider/8.png" />
+          </li>
+        </ul>
       </div>
-
-      <section class="comic">
-        <div style="text-align: center">
-          <img src="images/img/story text.png" alt="story">
-        </div>
-
-        <section class="comic">
-          <div style="text-align: center">
-            <img src="images/img/crack rabbit discovers rock.png" alt="discover">
-          </div>
-
-          <section class="comic">
-            <div style="text-align: center">
-              <img src="images/img/crack rabbit story text 2.png" alt="story2">
-            </div>
-
-            <section class="comic">
-              <div style="text-align: center">
-                <img src="images/img/crack rabbit infinity.png" alt="infinity">
-              </div>
-
-
-              <section class="footer">
-                <div class="footerWrap">
-                  <div class="footer">
-                    <div class="footerContent">
-                      <p>Copyright &copy; Crack Rabbit Collective by Bommy Knocker Studios 2022</p>
-                    </div>     
-                  </div>
-              </div>
+    </div>
 
     <script src="js/metamask-onboarding.bundle.js"></script>
     <script src="js/web3.min.js"></script>
+    <script src="js/splide.min.js"></script>
     <script src="js/constants.js"></script>
     <script src="js/abi.js"></script>
     <script src="js/countdown.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>
-
