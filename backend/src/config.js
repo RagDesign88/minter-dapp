@@ -55,7 +55,7 @@ const CHAIN = 'rinkeby'; // only rinkeby, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'CrackRabbitCollective';
-const CONTRACT_SYMBOL = 'CRB';
+const CONTRACT_SYMBOL = 'CRA';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x74bBb01c648d2D6b02653bcfC5fb3a6955e4DAcE';
 const TREASURY_ADDRESS = '0x74bBb01c648d2D6b02653bcfC5fb3a6955e4DAcE';
