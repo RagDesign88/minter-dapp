@@ -128,7 +128,7 @@ async function checkChain() {
                   chainName: 'Goerli Test Network',
                   chainId: web3.utils.toHex(chainId),
                   nativeCurrency: { name: 'ETH', decimals: 18, symbol: 'ETH' },
-                  rpcUrls: ['https://rinkeby.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161'],
+                  rpcUrls: ['https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161'],
                 },
               ],
             });
