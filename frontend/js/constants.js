@@ -1,5 +1,5 @@
 const contractAddress = "0xEdAA8a5a266b20199F0b886503e327971F60ca8d"; // Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby, polygon, or ethereum
+const chain = 'goerli'; // rinkeby, polygon, or ethereum
 
 const welcome_h1 = "Crack Rabbit Collective";
 const welcome_h2 = "Presenting the best NFT collection";
