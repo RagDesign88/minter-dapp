@@ -61,6 +61,22 @@ header .container {
   align-items: center;
 }
 
+/* COLUMN */
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* ROW */
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 /* NOT CONNECTED */
 .not-connected {
   position: fixed
